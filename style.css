@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 100vw !important;
+  background-color: #eeeeee;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+  font-family: "Raleway";
+ }
+
+html{
+  scroll-behavior: smooth;
+}
+
+.nav-link , .navbar-brand{
+  color: white !important;
+  margin-right: 1rem;
+}
+.nav-link:hover{
+  color: lightgray;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+.navbar-toggler{
+  background-color: #fff;
+  color: #644a8c;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: #343a40;
+  color: #ffffff;
+  text-decoration: none;
+  border-top: 2px solid #343a40;
+  border-bottom: 2px solid #343a40;
+}
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+}
+
+.header{
+  background-color: #644a8c;
+  width: 100vw;
+}
+
+.social-links a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  color: #232a34;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.social-links i{
+  padding-top: 8.4px;
+}
+
+.social-links a:hover{
+  color: white;
+  background-color: black;
+}
+
+.project-img{
+  width: 94%;
+  height: 230px;
+}
+
+.fab{
+  font-size: 24px;
+}
+
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.skills img{
+  width: 200px;
+  height: 200px;
+}
+
+.skills{
+  margin-left: 15vw !important;
+  margin-right: 15vw !important;
+}
+
+
+.form-center{
+  margin-left: 16vw;
+  width: 70%;
+  /* background-color: #644a8c; */
+  padding: 15px 25px 20px 20px;
+  /* color: white; */
+  font-weight: 700;
+  line-height: 1.3;
+  border-radius: 10px;
+}
+
+.footer{
+  background-color: #232a34;
+  color: white;
+  padding: 15px;
+}
+
+.footer h3{
+  margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    height: 80vh !important;
+  }
+}
